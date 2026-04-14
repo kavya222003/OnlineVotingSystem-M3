@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\migrations\\20260414122936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\migrations\\20260414122936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\models\\polloption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\models\\polloption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\models\\poll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\dtos\\pollsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\dtos\\pollsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\dtos\\votesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\dtos\\votesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\repositories\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\repositories\\pollrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\services\\pollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\services\\pollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\repositories\\voterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\repositories\\voterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\onlinevoting_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\onlinevoting_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|d:\\yuva\\hcl\\hcl .net full stack\\dot net(c#)\\onlinevoting_api\\onlinevoting_api\\controllers\\pollscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651433E-39A4-4F5C-BA8F-133CBC7F8396}|OnlineVoting_API\\OnlineVoting_API.csproj|solutionrelative:onlinevoting_api\\controllers\\pollscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OnlineVoting_API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T12:47:32.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\AuditLog.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:30:32.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:22:21.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\Vote.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Models\\Vote.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\Vote.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Models\\Vote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:30:21.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PollOption.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\PollOption.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Models\\PollOption.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\PollOption.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Models\\PollOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:30:12.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:18:57.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260414122936_InitialCreate.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Migrations\\20260414122936_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Migrations\\20260414122936_InitialCreate.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Migrations\\20260414122936_InitialCreate.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Migrations\\20260414122936_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:29:37.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Poll.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\Poll.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Models\\Poll.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\Poll.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Models\\Poll.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:30:01.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Models\\User.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Models\\User.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:29:53.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Program.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Program.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:38:47.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\appsettings.json",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\appsettings.json",
+              "RelativeToolTip": "OnlineVoting_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T11:53:31.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PollsDto.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\PollsDto.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\DTOs\\PollsDto.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\PollsDto.cs",
+              "RelativeToolTip": "OnlineVoting_API\\DTOs\\PollsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:31:14.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\AuthDto.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\DTOs\\AuthDto.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\AuthDto.cs",
+              "RelativeToolTip": "OnlineVoting_API\\DTOs\\AuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:30:43.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VotesDto.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\VotesDto.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\DTOs\\VotesDto.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\DTOs\\VotesDto.cs",
+              "RelativeToolTip": "OnlineVoting_API\\DTOs\\VotesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:31:30.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:35:18.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:35:06.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Services\\AuthService.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\AuthService.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:33:53.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PollRepository.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\PollRepository.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Repositories\\PollRepository.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\PollRepository.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Repositories\\PollRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:33:20.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Services\\JwtService.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\JwtService.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:34:37.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PollService.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\PollService.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Services\\PollService.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\PollService.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Services\\PollService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:34:26.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VoteService.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\VoteService.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Services\\VoteService.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Services\\VoteService.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Services\\VoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:34:12.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VoteRepository.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\VoteRepository.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Repositories\\VoteRepository.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\VoteRepository.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Repositories\\VoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:33:36.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:33:00.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OnlineVoting_API",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\OnlineVoting_API.csproj",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\OnlineVoting_API.csproj",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\OnlineVoting_API.csproj",
+              "RelativeToolTip": "OnlineVoting_API\\OnlineVoting_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T11:20:47.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Controllers\\ResultsController.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Controllers\\ResultsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:19:53.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VotesController.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\VotesController.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Controllers\\VotesController.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\VotesController.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Controllers\\VotesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:19:36.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PollsController.cs",
+              "DocumentMoniker": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\PollsController.cs",
+              "RelativeDocumentMoniker": "OnlineVoting_API\\Controllers\\PollsController.cs",
+              "ToolTip": "D:\\YUVA\\HCL\\HCL .NET FULL STACK\\dot net(C#)\\OnlineVoting_API\\OnlineVoting_API\\Controllers\\PollsController.cs",
+              "RelativeToolTip": "OnlineVoting_API\\Controllers\\PollsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:19:20.003Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
