@@ -13,6 +13,7 @@ namespace OnlineVoting_API.Data
         public DbSet<Vote> Votes => Set<Vote>();
         public DbSet<AuditLog> AuditLogs => Set<AuditLog>();
         public DbSet<PollTemplate> PollTemplates => Set<PollTemplate>();
+        public DbSet<GuestVote> GuestVotes => Set<GuestVote>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Vote>(e =>

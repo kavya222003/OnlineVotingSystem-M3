@@ -23,7 +23,9 @@ public class PollService
             EndDate = dto.EndDate,
             IsPublic = dto.IsPublic,
             MultiChoiceLimit = dto.MultiChoiceLimit,
-            CreatedById = userId
+            CreatedById = userId,
+            IsAnonymous = dto.IsAnonymous,
+            ShareToken = Guid.NewGuid()
         };
 
         _context.Polls.Add(poll);

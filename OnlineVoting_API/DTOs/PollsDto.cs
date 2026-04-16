@@ -11,6 +11,7 @@
         public bool IsPublic { get; set; }
 
         public int? MultiChoiceLimit { get; set; }
+        public bool IsAnonymous { get; set; }
 
         public List<string> Options { get; set; }
     }

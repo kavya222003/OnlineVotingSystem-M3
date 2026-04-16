@@ -1,13 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using OnlineVoting_API.DTOs;
 using OnlineVoting_API.Services;
 using System.Security.Claims;
 
 namespace OnlineVoting_API.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class VotesController : ControllerBase
     {
         private readonly VoteService _voteService;
@@ -17,23 +16,60 @@ namespace OnlineVoting_API.Controllers
             _voteService = voteService;
         }
 
-        [HttpPost]
+        // ✅ AUTH USER VOTE
         [Authorize]
-        public async Task<IActionResult> Vote(VotesDto dto)
+        [HttpPost]
+        public async Task<IActionResult> Vote(int pollId, List<int> optionIds)
         {
-            try
-            {
-                
-                var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
 
-                await _voteService.Vote(dto.PollId, userId, dto.OptionIds);
+            var confirmationId = await _voteService.Vote(pollId, userId, optionIds);
 
-                return Ok(new { message = "Vote submitted successfully" });
-            }
-            catch (Exception ex)
+            return Ok(new
             {
-                return BadRequest(new { error = ex.Message });
-            }
+                message = "Vote submitted",
+                confirmationId
+            });
+        }
+
+        // ✅ GUEST VOTE
+        [HttpPost("guest")]
+        public async Task<IActionResult> GuestVote(int pollId, List<int> optionIds)
+        {
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+            var fingerprint = Request.Headers["X-Fingerprint"].ToString();
+
+            if (string.IsNullOrEmpty(fingerprint))
+                return BadRequest("Fingerprint missing");
+
+            var confirmationId = await _voteService.GuestVote(pollId, optionIds, ip, fingerprint);
+
+            return Ok(new
+            {
+                message = "Vote submitted",
+                confirmationId
+            });
+        }
+
+        // ✅ HAS VOTED
+        [Authorize]
+        [HttpGet("has-voted/{pollId}")]
+        public async Task<IActionResult> HasVoted(int pollId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var result = await _voteService.HasVoted(pollId, userId);
+
+            return Ok(result);
+        }
+
+        // ✅ CONFIRMATION RECEIPT
+        [HttpGet("confirm/{confirmationId}")]
+        public async Task<IActionResult> GetConfirmation(Guid confirmationId)
+        {
+            var result = await _voteService.GetConfirmation(confirmationId);
+
+            return Ok(result);
         }
     }
 }

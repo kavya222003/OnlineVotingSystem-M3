@@ -22,6 +22,8 @@ namespace OnlineVoting_API.Models
         public int? MultiChoiceLimit { get; set; }
 
         public User CreatedBy { get; set; } = null!;
+        public Guid ShareToken { get; set; } = Guid.NewGuid();
+        public bool IsAnonymous { get; set; }
 
         public ICollection<PollOption> Options { get; set; } = new List<PollOption>();
         public ICollection<Vote> Votes { get; set; } = new List<Vote>();
