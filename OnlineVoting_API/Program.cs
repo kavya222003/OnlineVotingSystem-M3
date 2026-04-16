@@ -6,6 +6,7 @@ using OnlineVoting_API.Data;
 using OnlineVoting_API.Helpers;
 using OnlineVoting_API.Repositories;
 using OnlineVoting_API.Services;
+using OnlineVoting_API.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,8 @@ builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<PasswordHasher>();
 builder.Services.AddScoped<JwtHelper>();
+builder.Services.AddScoped<PollService>();
+builder.Services.AddScoped<VoteService>();
 
 // -------------------- CONTROLLERS --------------------
 builder.Services.AddControllers();
@@ -60,7 +63,7 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1"
     });
 
-    // 🔐 JWT Authentication in Swagger
+    // JWT Authentication in Swagger
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -88,6 +91,37 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
+// -------------------- SEED POLL TEMPLATES --------------------
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    if (!db.PollTemplates.Any())
+    {
+        db.PollTemplates.AddRange(
+            new PollTemplate
+            {
+                TemplateName = "Programming Languages",
+                DefaultQuestion = "Which programming language do you prefer?",
+                DefaultOptions = "[\"C#\", \"Java\", \"Python\", \"JavaScript\"]"
+            },
+            new PollTemplate
+            {
+                TemplateName = "Lunch Poll",
+                DefaultQuestion = "What should we eat today?",
+                DefaultOptions = "[\"Pizza\", \"Burger\", \"Biryani\", \"Salad\"]"
+            },
+            new PollTemplate
+            {
+                TemplateName = "Event Date",
+                DefaultQuestion = "Choose preferred event date",
+                DefaultOptions = "[\"Friday\", \"Saturday\", \"Sunday\"]"
+            }
+        );
+
+        db.SaveChanges();
+    }
+}
 
 // -------------------- MIDDLEWARE --------------------
 if (app.Environment.IsDevelopment())
@@ -98,7 +132,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// 🔥 IMPORTANT ORDER
+// IMPORTANT ORDER
 app.UseAuthentication();
 app.UseAuthorization();
 

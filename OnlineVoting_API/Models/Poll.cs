@@ -12,12 +12,14 @@ namespace OnlineVoting_API.Models
 
         public string Description { get; set; } = string.Empty;
 
-        public int CreatedByUserId { get; set; }
+        public int CreatedById { get; set; }
 
         public bool IsPublic { get; set; } = true;
 
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+
+        public int? MultiChoiceLimit { get; set; }
 
         public User CreatedBy { get; set; } = null!;
 

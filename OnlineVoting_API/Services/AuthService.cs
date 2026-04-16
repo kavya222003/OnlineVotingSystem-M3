@@ -43,7 +43,7 @@ namespace OnlineVoting_API.Services
             if (user == null || !_hasher.Verify(dto.Password, user.PasswordHash))
                 throw new Exception("Invalid credentials");
 
-            var token = _jwt.GenerateToken(user.Email, "Voter");
+            var token = _jwt.GenerateToken(user);
 
             return new AuthResponseDto
             {

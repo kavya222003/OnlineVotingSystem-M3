@@ -17,6 +17,7 @@ namespace OnlineVoting_API.Models
         public string PasswordHash { get; set; } = string.Empty;
 
         public bool IsActive { get; set; } = true;
+        public string Role { get; set; } = "Voter";
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
